@@ -12,7 +12,7 @@ let defaultColour="#582c99"
 var circles = document.querySelectorAll(".circle");
 var colourToGuess = document.getElementById("colour-to-guess");
 var resultMessage = document.getElementById("result-message");
-var banner = document.getElementById("container");
+var banner = document.querySelector("h1");
 var resetButton = document.getElementById("restart");
 
 
